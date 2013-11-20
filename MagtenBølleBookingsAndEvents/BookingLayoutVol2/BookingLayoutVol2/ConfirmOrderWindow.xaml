@@ -1,0 +1,25 @@
+﻿<Window x:Class="BookingLayoutVol2.ConfirmOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ConfirmOrderWindow" Height="625" Width="400">
+    <Grid>
+        <Label Content="Du reserverer:" HorizontalAlignment="Left" Margin="81,19,0,0" VerticalAlignment="Top"/>
+        <Label Content="På følgende dato(er):" HorizontalAlignment="Left" Margin="81,205,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="reservationsTextBlock" HorizontalAlignment="Left" Height="150" Margin="72,50,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Fra:" HorizontalAlignment="Left" Margin="81,236,0,0" VerticalAlignment="Top"/>
+        <Label Content="Til:" HorizontalAlignment="Left" Margin="209,239,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="confirmFromDateTextBox" HorizontalAlignment="Left" Height="23" Margin="115,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="confirmToDateTextBox" HorizontalAlignment="Left" Height="23" Margin="239,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Dine personlige oplysninger:" HorizontalAlignment="Left" Margin="10,301,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="confirmFullNameTextBox" HorizontalAlignment="Left" Height="23" Margin="48,347,0,0" TextWrapping="Wrap" Text="Fulde navn" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="confirmEmailTextBox" HorizontalAlignment="Left" Height="23" Margin="48,459,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="confirmCityTextBox" HorizontalAlignment="Left" Height="23" Margin="48,403,0,0" TextWrapping="Wrap" Text="By" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="confirmAddressTextBox" HorizontalAlignment="Left" Height="23" Margin="48,375,0,0" TextWrapping="Wrap" Text="Adresse" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="confirmPhoneNumberTextBox" HorizontalAlignment="Left" Height="23" Margin="48,431,0,0" TextWrapping="Wrap" Text="Tlf. nummer" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Eventuelle kommentarer:" HorizontalAlignment="Left" Margin="200,301,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="confirmCommentaryTextBox" HorizontalAlignment="Left" Height="150" Margin="200,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="confirmButton" Content="Bekræft" HorizontalAlignment="Left" Margin="81,528,0,0" VerticalAlignment="Top" Width="75" Click="confirmButton_Click"/>
+        <Button x:Name="cancelOrderButton" Content="Annuller" HorizontalAlignment="Left" Margin="244,528,0,0" VerticalAlignment="Top" Width="75" Click="cancelOrderButton_Click"/>
+
+    </Grid>
+</Window>

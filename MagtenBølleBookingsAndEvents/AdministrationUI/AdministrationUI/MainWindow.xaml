@@ -1,0 +1,89 @@
+﻿<Window x:Class="AdministrationUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+                <GroupBox Grid.Row="0" Header="List of Reservations" Margin="10,20,10,0">
+                    <ListBox Height="200" Margin="0">
+                    </ListBox>
+                </GroupBox>
+                <GroupBox Grid.Row="1" Header="List of Check In's" Margin="10,10,10,0">
+                    <ListBox Height="200">
+                    </ListBox>
+                </GroupBox>
+            <Button Grid.Row="2"  Content="Check In" HorizontalAlignment="Left" Margin="20,10,0,0" Padding="10,1"/>
+            <Button Grid.Row="2"  Content="Check Out" HorizontalAlignment="Right" Margin="0,10,20,0" Padding="10,1"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
+                <TextBox HorizontalAlignment="Center" Text="Enter Name" Margin="0,10,10,0"/>
+                <Button  Content="Search" HorizontalAlignment="Center" Margin="0,10,20,0" Padding="10,1"/>
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Column="1">
+            <GridSplitter Grid.Column="1" ResizeDirection="Columns" Width="5" HorizontalAlignment="Center" Margin="5,5">
+                <GridSplitter.Template>
+                    <ControlTemplate TargetType="{x:Type GridSplitter}">
+                        <Grid>
+                            <Button Content="..." />
+                            <Rectangle Fill="#00FFFFFF" />
+                        </Grid>
+                    </ControlTemplate>
+                </GridSplitter.Template>
+            </GridSplitter>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <StackPanel Margin="10,20,10,0">
+                    <Label Content="Dato/tid"/>
+                    <TextBox x:Name="dateTimeTextBox" Text=""/>
+                    <Label Content="Titel"/>
+                    <TextBox x:Name="titelTextBox" Text=""/>
+                    <Label Content="Price"/>
+                    <TextBox x:Name="priceTextBox" Text=""/>
+                    <Label Content="Description"/>
+                    <TextBox x:Name="descriptionTextBox" Text="" Height="75"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                        <Button x:Name="createEventButton" Content="Opret Event" Margin="0,0,100,0" Click="createEventButton_Click"/>
+                        <Button x:Name="deleteEventButton" Content="Slet Event"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1">
+                <GridSplitter Grid.Row="1" ResizeDirection="Rows" Height="5" HorizontalAlignment="Stretch" Margin="5,5">
+                    <GridSplitter.Template>
+                        <ControlTemplate TargetType="{x:Type GridSplitter}">
+                            <Grid>
+                                <Button Content="..." />
+                                <Rectangle Fill="#00FFFFFF" />
+                            </Grid>
+                        </ControlTemplate>
+                    </GridSplitter.Template>
+                </GridSplitter>
+            </Grid>
+            
+            <Grid Grid.Row="2">
+                <GroupBox Header="List of Events" Margin="10,10,10,0">
+                    <ListBox x:Name="eventsListBox" Height="200">
+                    </ListBox>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

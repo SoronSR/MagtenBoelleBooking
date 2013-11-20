@@ -1,0 +1,51 @@
+1001|Fulde navn|Addresse|By|6345|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1001|Fulde navn|Addresse|By|6345|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1003|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1004|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1005|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1006|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1007|Fulde navn|Addresse|By|54634|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1008|Fulde navn|Addresse|By|654363|E-mail|06-11-2013|14-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1009|Fulde navn|Addresse|By|563463|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1010|Fulde navn|Addresse|By|5764|E-mail|06-11-2013|08-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1011|Fulde navn|Addresse|By|22334455|E-mail|07-11-2013|08-11-2013|0|Banekort|2|DCU medlemmer|2|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1012|Fulde navn|Addresse|By|158|E-mail|06-11-2013|08-11-2013|1|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1013|Fulde navn|Addresse|By|123|E-mail|14-11-2013|22-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1014|Fulde navn|Addresse|By|654|E-mail|12-11-2013|22-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1015|Fulde navn|Addresse|By|123|E-mail|14-11-2013|23-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1016|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1017|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1018|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1019|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1020|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1021|Fulde navn|Addresse|By|8767564|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1022|Fulde navn|Addresse|By|456789|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1023|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1024|Fulde navn|Addresse|By|452|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1025|Fulde navn|Addresse|By|4856|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1026|Fulde navn|Addresse|By|456|E-mail|||0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1027|Fulde navn|Addresse|By|465678|E-mail|14-11-2013|16-11-2013|0|Banekort|2|DCU medlemmer|2|Cafe|2|Cafe|2|Cafe|2
+1028|Fulde navn|Addresse|By|345678|E-mail|14-11-2013|16-11-2013|0|Banekort|2|DCU medlemmer|2|Cafe|2|Cafe|2|Cafe|2
+1029|Fulde navn|Addresse|By|3245678|E-mail|||0|Banekort|2|DCU medlemmer|2|Cafe|3|Cafe|2|Cafe|4
+1030|Fulde navn|Addresse|By|23456789|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|5|Cafe|4|Cafe|3|Cafe|5
+1031|Fulde navn|Addresse|By|345674|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|4|Cafe|4|Cafe|3|Cafe|4
+1032|Fulde navn|Addresse|By|345674|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|4|Cafe|4|Cafe|3|Cafe|4|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|5|Cafe|4|Cafe|3|Cafe|5
+1033|Fulde navn|Addresse|By|234567890|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|5|Cafe|4|Cafe|3|Cafe|5
+1034|Fulde navn|Addresse|By|234789|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|5|Cafe|4|Cafe|3|Cafe|5
+1035|Fulde navn|Addresse|By|345678|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|5|Cafe|4|Cafe|3|Cafe|5
+1036|Fulde navn|Addresse|By|2345678|E-mail|||0|Banekort|1|DCU medlemmer|2|Bed and Breakfast|3|Teltpladser|5|Cafe|4|Cafe|3|Cafe|5
+1037|Fulde navn|Addresse|By|345678|E-mail|||0|Banekort|1|DCU medlemmer|2|Cafe|3|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1038|Fulde navn|Addresse|By|345678|E-mail|||0|Banekort|1|DCU medlemmer|2|Cafe|3|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|3|Teltpladser|0|Cafe|3|Bed and Breakfast|3|Teltpladser|0|Cafe|0|Bed and Breakfast|3|Teltpladser|0
+1039|Fulde navn|Addresse|By|2345678|E-mail|||0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|3|Teltpladser|0|Cafe|3|Bed and Breakfast|3|Teltpladser|0|Cafe|0|Bed and Breakfast|3|Teltpladser|0
+1040|Fulde navn|Addresse|By|876543|E-mail|14-11-2013|22-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1041|Fulde navn|Addresse|By|2345678|E-mail|14-11-2013|23-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|3|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1042|Fulde navn|Addresse|By|2345678|E-mail|14-11-2013|15-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|0|Teltpladser|0|Cafe|0|Bed and Breakfast|3|Teltpladser|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1043|Fulde navn|Addresse|By|345678|E-mail|15-11-2013|17-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|3|Teltpladser|5
+1044|Fulde navn|Addresse|By|34567|E-mail|13-11-2013|16-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|3|Teltpladser|5
+1045|Fulde navn|Addresse|By|234567|E-mail|13-11-2013|16-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|4|Bed and Breakfast|3|Teltpladser|5
+1046|Fulde navn|Addresse|By|23456789|E-mail|14-11-2013|17-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1047|Fulde navn|Addresse|By|23456789|E-mail|14-11-2013|17-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|3|Teltpladser|0
+1048|Fulde navn|Addresse|By|234567|E-mail|12-11-2013|29-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|3|Bed and Breakfast|0|Teltpladser|0
+1049|Fulde navn|Addresse|By|234567|E-mail|12-11-2013|29-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|3|Bed and Breakfast|0|Teltpladser|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1050|Fulde navn|Addresse|By|234567|E-mail|15-11-2013|17-11-2013|0|Banekort|1|DCU medlemmer|2|Cafe|3|Bed and Breakfast|0|Teltpladser|0
+1051|Søren Rasmussen|Bøjdenvej 39|Nyborg|22163246|and10lope_sse@gmail.com|16-11-2013|29-11-2013|4|Banekort|21|DCU medlemmer|2|Cafe|0|Bed and Breakfast|0|Teltpladser|0

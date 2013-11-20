@@ -1,0 +1,137 @@
+﻿<Window x:Class="BookingLayoutVol2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="1100">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="250"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Width="Auto" FontFamily="Lucida Handwriting" FontSize="18" Content="Introduktion" HorizontalAlignment="Center" FontWeight="Bold"/>
+
+                </Grid>
+                
+            </Grid>
+            <GridSplitter Grid.Row="1" ResizeDirection="Rows" Height="5" HorizontalAlignment="Stretch" Margin="5,5">
+                <GridSplitter.Template>
+                    <ControlTemplate TargetType="{x:Type GridSplitter}">
+                        <Grid>
+                            <Button Content="..." />
+                            <Rectangle Fill="#00FFFFFF" />
+                        </Grid>
+                    </ControlTemplate>
+                </GridSplitter.Template>
+            </GridSplitter>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Width="Auto" FontFamily="Lucida Handwriting" FontSize="18" Content="Event Oversigt" HorizontalAlignment="Center" FontWeight="Bold"/>
+                <ListBox x:Name="eventListBox" Grid.Row="1">
+                    
+                </ListBox>
+            </Grid>
+        </Grid>
+        <GridSplitter Grid.Column="1" ResizeDirection="Columns" Width="5" HorizontalAlignment="Center" Margin="5,5">
+            <GridSplitter.Template>
+                <ControlTemplate TargetType="{x:Type GridSplitter}">
+                    <Grid>
+                        <Button Content="..." />
+                        <Rectangle Fill="#00FFFFFF" />
+                    </Grid>
+                </ControlTemplate>
+            </GridSplitter.Template>
+        </GridSplitter>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Width="Auto" FontFamily="Lucida Handwriting" FontSize="18" Content="Vælg Datoer" HorizontalAlignment="Center" FontWeight="Bold"/>
+            
+            <Label Grid.Row="2" Width="Auto" FontFamily="Lucida Handwriting" FontSize="18" Content="Vælg Booking(er)" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,10,0,0"/>
+            <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Label Content="Fra:" Width="30"/>
+                    <DatePicker x:Name="fromDateTextBox" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
+                        <Label Content="Til:" Width="30"/>
+                    <DatePicker x:Name="toDateTextBox" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Label Content="Antal biler: " />
+                    <TextBox Text="0" x:Name="antalBilerTextBox" Width="19"/>
+                </StackPanel>
+
+            </StackPanel>
+            <ScrollViewer Grid.Row="4" VerticalScrollBarVisibility="Auto" Height="350">
+                <StackPanel Grid.Row="4" Margin="0,10,0,0">
+                    <CheckBox x:Name="banekortCheckBox" Content="Banekort" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="25,0,0,0" Checked="banekortCheckBox_Checked" Unchecked="banekortCheckBox_Unchecked"/>
+                    <StackPanel x:Name="banekortStackPanel" Orientation="Vertical" />
+                    <CheckBox x:Name="bbCheckBox" Content="Bed &amp; Breakfast" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="25,20,0,0" Checked="bbCheckBox_Checked" Unchecked="bbCheckBox_Unchecked"/>
+                    <StackPanel x:Name="bandbStackPanel" Orientation="Vertical" />
+                    <CheckBox x:Name="cafeCheckBox" Content="Cafe" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="25,20,0,0" Checked="cafeCheckBox_Checked" Unchecked="cafeCheckBox_Unchecked"/>
+                    <StackPanel x:Name="cafeStackPanel" Orientation="Vertical" />
+                    <CheckBox x:Name="tentCheckBox" Content="Telt" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="25,20,0,0" Checked="tentCheckBox_Checked" Unchecked="tentCheckBox_Unchecked"/>
+                    <StackPanel x:Name="tentStackPanel" Orientation="Vertical" />
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <GridSplitter Grid.Column="3" ResizeDirection="Columns" Width="5" HorizontalAlignment="Center" Margin="5,5">
+            <GridSplitter.Template>
+                <ControlTemplate TargetType="{x:Type GridSplitter}">
+                    <Grid>
+                        <Button Content="..." />
+                        <Rectangle Fill="#00FFFFFF" />
+                    </Grid>
+                </ControlTemplate>
+            </GridSplitter.Template>
+        </GridSplitter>
+        <Grid Grid.Column="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Width="Auto" FontFamily="Lucida Handwriting" FontSize="18" Content="Personlig Information" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                <TextBox x:Name="fullNameTextBox" Height="23" TextWrapping="Wrap" Text="Fulde navn" HorizontalAlignment="Center" Width="150" Margin="0,5,0,0"/>
+                <TextBox x:Name="addressTextBox" Height="23" TextWrapping="Wrap" Text="Addresse" HorizontalAlignment="Center" Width="150" Margin="50,5,50,0"/>
+                <TextBox x:Name="cityTextBox" Height="23" TextWrapping="Wrap" Text="By" HorizontalAlignment="Center" Width="150" Margin="50,5,50,0"/>
+                <TextBox x:Name="phoneNumberTextBox" Height="23" TextWrapping="Wrap" Text="Tlf. nummer" HorizontalAlignment="Center" Width="150" Margin="50,5,50,0"/>
+                <TextBox x:Name="emailTextBox" Height="23" TextWrapping="Wrap" Text="E-mail" HorizontalAlignment="Center" Width="150" Margin="50,5,50,0"/>
+                <TextBox x:Name="verifiedEmailTextBox" Height="23" TextWrapping="Wrap" Text="Bekræft E-mail" HorizontalAlignment="Center" Width="150" Margin="50,5,50,0"/>
+                <GroupBox x:Name="commentaryTextBox" Header="Kommentarer til bookingen:" Margin="0,20,0,0" HorizontalAlignment="Center" Width="230">
+                    <TextBox x:Name="commentTextBox" TextWrapping="Wrap" Margin="10,2" Height="180"/>
+                </GroupBox>
+                <Button x:Name="bestilButton" Content="Bestil" Margin="0,20,0,0" HorizontalAlignment="Center" Padding="10,1" Height="37" Width="74" Click="bestilButton_Click"/>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

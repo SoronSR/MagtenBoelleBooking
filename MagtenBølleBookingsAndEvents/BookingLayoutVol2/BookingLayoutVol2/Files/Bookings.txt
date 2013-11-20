@@ -1,0 +1,6 @@
+1001|Fulde navn|Addresse|By|6345|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1001|Fulde navn|Addresse|By|6345|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1003|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1004|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1005|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
+1006|Fulde navn|Addresse|By|675|E-mail|06-11-2013|07-11-2013|0|Banekort|0|DCU medlemmer|0|Cafe|0|Bed and Breakfast|0|Teltpladser|0
